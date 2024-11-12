@@ -20,6 +20,11 @@ footer {
   color: white;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 .card {
   width: 500px;
   margin: auto;

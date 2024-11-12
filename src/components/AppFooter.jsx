@@ -6,7 +6,9 @@ export default function AppFooter() {
     //eseguo il return
     return (
         <footer>
-            <p>{footerText}</p>
+            <div className="container">
+                <p>{footerText}</p>
+            </div>
         </footer>
 
     )
