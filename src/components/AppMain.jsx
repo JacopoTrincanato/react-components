@@ -16,7 +16,7 @@ export default function AppMain() {
     return (
         <main>
             <div className="card">
-                <div className="card-top">
+                <div className="card-top d-flex">
                     <p>{cardSize}</p>
                 </div>
 
