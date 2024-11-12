@@ -6,7 +6,7 @@ export default function AppFooter() {
     //eseguo il return
     return (
         <footer>
-            <h1>{footerText}</h1>
+            <p>{footerText}</p>
         </footer>
 
     )
