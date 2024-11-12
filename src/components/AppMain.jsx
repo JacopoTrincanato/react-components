@@ -21,9 +21,9 @@ export default function AppMain() {
                 </div>
 
                 <div className="card-bottom">
-                    <h3>{cardTitle}</h3>
-                    <p>{cardDescription}</p>
-                    <button className="btn">{buttontext.toUpperCase()}</button>
+                    <h3 className="mt-1">{cardTitle}</h3>
+                    <p className="mt-1">{cardDescription}</p>
+                    <button className="btn mt-1">{buttontext.toUpperCase()}</button>
                 </div>
             </div>
         </main>

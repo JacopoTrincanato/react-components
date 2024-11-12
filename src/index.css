@@ -11,29 +11,32 @@ body {
 header,
 footer {
   text-align: center;
+  padding: 1.5rem;
 }
 
 footer {
   background-color: #333333;
   color: white;
+  font-size: 1.2rem;
 }
 
 .card {
-  height: 600px;
-  width: 500px;
+  height: 700px;
+  width: 600px;
   margin: auto;
   border-radius: 20px;
   padding: 2rem;
+  margin-bottom: 4rem;
 
   .card-top {
     background-color: #cccccc;
-    height: 450px;
+    height: 400px;
     font-size: 3rem;
   }
 
   .card-bottom {
     background-color: white;
-    height: 150px;
+    padding: 0.75rem;
 
     .btn {
       background-color: #d2a741;
@@ -48,4 +51,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
 }
