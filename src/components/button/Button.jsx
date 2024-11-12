@@ -1,3 +1,6 @@
+//importo lo stile
+import style from './Button.module.css'
+
 //creo il componente button
 export default function Button() {
     //creo una variabile per il testo del bottone
