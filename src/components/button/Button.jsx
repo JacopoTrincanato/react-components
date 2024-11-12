@@ -8,6 +8,6 @@ export default function Button() {
 
     //eseguo il return
     return (
-        <button className="btn mt-1">{buttontext.toUpperCase()}</button>
+        <button className={style.btn} {...mt1}>{buttontext.toUpperCase()}</button>
     )
 }

@@ -25,13 +25,3 @@ footer {
   width: 80%;
   margin: auto;
 }
-
-.d-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.mt-1 {
-  margin-top: 1rem;
-}

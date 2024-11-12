@@ -18,14 +18,14 @@ export default function Card() {
     //eseguo il return
     return (
 
-        <div className="card">
-            <div className="card-top d-flex">
+        <div className={style.card}>
+            <div className={style.cardTop}{...dFlex}>
                 <p>{cardSize}</p>
             </div>
 
-            <div className="card-bottom">
-                <h3 className="mt-1">{cardTitle}</h3>
-                <p className="mt-1">{cardDescription}</p>
+            <div className={style.cardBottom}>
+                <h3 className={style.mt1}>{cardTitle}</h3>
+                <p className={style.mt1}>{cardDescription}</p>
                 <Button />
             </div>
         </div>
