@@ -19,7 +19,7 @@ export default function Card() {
     return (
 
         <div className={style.card}>
-            <div className={style.cardTop}{...dFlex}>
+            <div className={`${style.cardTop} ${style.dFlex}`}>
                 <p>{cardSize}</p>
             </div>
 
